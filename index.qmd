@@ -1,0 +1,76 @@
+---
+title: "Balans"
+format: html
+---
+
+Balans is a project-based data and AI engineering practice for government and public institutions. We conceive and deliver modern, streamlined, accessible, and sovereign tooling without the overhead of long-term vendor contracts.
+
+## Choose Us If:
+
+- You need a completed project, not another platform subscription.
+- Your mandate has a deadline.
+- Your resources don't stretch to a multi-year vendor relationship.
+- Your data can't sit on infrastructure or architecture, you don't control, or cannot audit.
+
+## On This Page:
+
+- **[See how Balans compares to long-term vendor contracts →](#why-balans-why-now)**
+- **[See service tiers →](#services)**
+- **[Learn what "balans" means →](#about-the-name)**
+- **[Get in touch →](#contact)**
+
+## Why Balans, Why Now?
+
+Government modernization is usually sold as a platform: a subscription, a dashboard platform, a multi-year contract that outlives the mandate it was built for. Balans works differently — embedded, scoped, and finished for your scenario, your devices, your use-case.
+
+We follow a forward-deployed model: an engineer working directly against your mandate, inside your constraints, until the deliverable is complete and handed over — not retained as an ongoing expenditure and dependency.
+
+This approach is grounded in hands-on Government of Canada experience and graduate training in eGovernment — paired with modern, open-source data engineering practice. The result: solutions built with *your* conventions and standards accounted for.
+
+## Built For The Challenge Function (And The Future of Work)
+
+- **Local-first, sovereign by default.** Data and models run on infrastructure you control. Nothing routes through third-party cloud services unless you choose it.
+- **No vendor lock-in.** Deliverables are handed over complete — code, decisions, training materials — not licensed back to you.
+- **Project-based, not subscription-based.** Defined scope, defined end date — built to fit standard contracting vehicles rather than requiring a new procurement category.
+- **Standards-compliant from day one.** Built to WCAG 2.2 AAA and FAIR data principles, so outputs pass departmental review the first time.
+
+## What We Do
+
+**Data Engineering**
+Custom pipelines, ETL, and infrastructure to turn raw data into actionable assets—always with sovereignty and scalability in mind.
+
+**AI/ML Engineering**
+From proof-of-concept to production, we build and deploy models that solve real-world problems, with transparency and fairness at the core.
+
+**Data Strategy, Governance & Compliance**
+Align your data with organizational goals, regulatory requirements, and best practices (e.g.: WCAG 2.2 AAA, FAIR).
+
+**Sovereign Tooling**
+Local, in-process, on-device, inference and tooling by default — ensuring data sovereignty, privacy, and control.
+
+**Reporting & Analytical Deliverables**
+Provide actionable insights through reports, notebooks, dashboards, and custom AI layers that draw on your project’s data and your team’s knowledge.
+
+## Services
+
+Every engagement is scoped before it's priced — the tiers below are for planning purposes, not a binding quote.
+
+| Tier | Features | Typical timeline | Price range (CAD)* |
+|---|---|---|---|
+| **Scope** | Forensic data audit, FAIR assessment, scoping report | 4–6 weeks | $7,500 – $9,500 |
+| **Architect** | Data cleaning, vault/lake structuring, pipeline development | 8–12 weeks | $35,000 – $80,000 |
+| **Enable** | End-to-end build, SQL/reporting layer, local LLM integration, training materials | 12 weeks+ | $85,000 – $140,000 |
+
+*Final pricing depends on data volume, schema complexity, and current data quality — price ranges are confirmed with the purchase of a Scope tier service. Scope tier service required before any contract is signed for Architect and Enable tiers. Not every project will require all mentioned features.*
+
+**[Request an estimate →](mailto:fbbgqh51@duck.com)**
+
+## About the name
+
+Several cultures share the idea of something being “just right” (not too much, not too little). Like the Earth’s axial tilt, a small but well-placed adjustment can be what makes everything feel optimized, well-balanced. That’s the standard we hold ourselves to.
+
+## Contact
+
+Have a project in mind, or just want to talk through your options first? Reach out — a first conversation costs nothing and commits you to nothing.
+
+**[Email Balans →](mailto:fbbgqh51@duck.com)**
