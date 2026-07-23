@@ -2,9 +2,9 @@
 .DS_Store
 
 # Quarto build outputs
-*.html
-index_files/
-_site/
+#*.html
+#index_files/
+#_site/
 
 # Python
 __pycache__/
