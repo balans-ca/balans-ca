@@ -31,3 +31,6 @@ MANIFEST
 
 # UV
 .venv/
+
+/.quarto/
+**/*.quarto_ipynb
