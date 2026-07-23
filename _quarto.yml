@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Balans"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+  
+  # This is the critical setting for GitHub Pages
+  # If your repo is named "balans-ca", use:
+  baseurl: "/balans-ca"
+  # If serving from username.github.io (root), use:
+  # baseurl: ""
+
+format:
+  html:
+    theme: cosmo
+    # Optional: add custom CSS
+    # css: styles.css
