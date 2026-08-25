@@ -4,6 +4,9 @@
 # Quarto files
 index.qmd
 
+# Docs folder
+docs/
+
 # Python
 __pycache__/
 *.py[cod]
