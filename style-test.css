@@ -1,0 +1,498 @@
+/* ============================================
+   BASE RESET AND VARIABLES
+   ============================================ */
+
+:root {
+  /* Typography */
+  --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  /* Typography Scale - Polestar inspired: 70/30/20/16pt */
+  --text-title: 70pt;
+  --text-h1: 30pt;
+  --text-h2: 20pt;
+  --text-h3: 16pt;
+  --text-body: 16pt;
+
+  /* Colors - WCAG 2.2 AAA Compliant
+     Turquoise accent, light grey from Polestar
+     White on black for contrast (Thinking Machines style) */
+  --color-primary: #000000;
+  --color-secondary: #333333;
+  --color-tertiary: #757575;
+  --color-accent: #00F5FF;
+  --color-accent-light: #40E0D0;
+  --color-background: #ffffff;
+  --color-background-dark: #000000;
+  --color-background-light: #F5F5F5;
+  --color-light-grey: #E0E0E0;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 3rem;
+  --spacing-xl: 4rem;
+
+  /* Layout */
+  --max-content-width: 800px;
+  --gutter: 2rem;
+}
+
+/* ============================================
+   BASE STYLES
+   ============================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: var(--text-body);
+  line-height: 1.6;
+  color: var(--color-secondary);
+  background-color: var(--color-background);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* ============================================
+   TITLE STYLING ONLY
+   Just font properties, no positioning/box model changes
+   ============================================ */
+
+#title-block-header .title {
+  font-size: var(--text-title);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-primary);
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+#title-block-header .author,
+#title-block-header .date {
+  font-size: var(--text-h3);
+  color: var(--color-tertiary);
+  margin-top: var(--spacing-sm);
+}
+
+/* ============================================
+   TABLE OF CONTENTS - Only top spacing
+   ============================================ */
+
+#quarto-sidebar-toc-left {
+  padding-top: 200px;
+}
+
+
+
+/* ============================================
+   HEADINGS WITH ORANGE HIGHLIGHT (Designboom-inspired)
+   Full opacity rectangles BEHIND text
+   Excludes the main title "Balans" (#title-block-header .title)
+   ============================================ */
+
+/* ============================================
+   DEFAULT HEADINGS - No orange color, no highlights
+   Use .orange-highlight class for orange headings with rectangle
+   ============================================ */
+
+main {
+  max-width: 1200px;
+  padding: var(--spacing-md) var(--spacing-xl);
+  margin: 0 auto;
+}
+
+main h1,
+#quarto-document-content h1 {
+  font-size: var(--text-h1);
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-top: 0;
+  margin-bottom: var(--spacing-md);
+  line-height: 1.2;
+}
+
+main h2,
+#quarto-document-content h2 {
+  font-size: var(--text-h2);
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.1;
+}
+
+main h3,
+#quarto-document-content h3 {
+  font-size: var(--text-h3);
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-top: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
+}
+
+/* ============================================
+   DESIGNBOOM-STYLE HIGHLIGHT CLASSES
+   
+   Based on Designboom website:
+   .wow { display: inline; background: #fff; }
+   .wow-yellow { background: linear-gradient(180deg, 
+     rgba(255,255,255,0) 0%, rgba(255,255,255,0) 65%, 
+     rgb(255,254,1) 65%, rgb(255,254,1) 100%); }
+   
+   For turquoise highlight, use .wow and .wow-orange together.
+   Apply to headings using Quarto markdown:
+   ::: {.wow .wow-orange}
+   ## Your Heading
+   :::
+   
+   OR apply directly to heading elements:
+   ## Your Heading {: .wow .wow-orange}
+   ============================================ */
+
+/* Designboom's .wow class (uppercase removed) */
+.wow {
+  display: inline;
+  background: #fff;
+}
+
+/* Designboom's .wow-yellow class (modified to turquoise) */
+.wow-orange {
+  background: linear-gradient(180deg, 
+    rgba(255, 255, 255, 0) 0%, 
+    rgba(255, 255, 255, 0) 65%, 
+    var(--color-accent) 65%, 
+    var(--color-accent) 100%);
+}
+
+/* Apply to headings - makes them inline to work with gradient */
+.wow h1, .wow h2, .wow h3 {
+  display: inline;
+  color: var(--color-accent);
+}
+
+/* For headings with wow-orange, ensure proper spacing */
+h1.wow.wow-orange,
+h2.wow.wow-orange,
+h3.wow.wow-orange {
+  display: inline;
+  color: var(--color-accent);
+  padding-bottom: 0.3em;
+}
+
+main p,
+#quarto-document-content p {
+  font-size: var(--text-body);
+  color: var(--color-secondary);
+  margin-top: 0;
+  margin-bottom: var(--spacing-md);
+  line-height: 1.7;
+}
+
+main a,
+#quarto-document-content a {
+  color: var(--color-accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-accent-light);
+  transition: all 0.2s ease;
+}
+
+main a:hover,
+main a:focus,
+#quarto-document-content a:hover,
+#quarto-document-content a:focus {
+  color: var(--color-accent-light);
+  border-bottom-color: var(--color-accent);
+}
+
+main blockquote,
+#quarto-document-content blockquote {
+  font-size: var(--text-body);
+  color: var(--color-tertiary);
+  border-left: 4px solid var(--color-light-grey);
+  padding-left: var(--spacing-md);
+  margin-left: 0;
+  font-style: italic;
+}
+
+main code,
+#quarto-document-content code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.9em;
+  color: var(--color-primary);
+  background-color: var(--color-background-light);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+main pre,
+#quarto-document-content pre {
+  overflow-x: auto;
+  padding: var(--spacing-md);
+  background-color: var(--color-background-dark);
+  color: var(--color-background);
+  border-radius: 4px;
+  margin-bottom: var(--spacing-md);
+}
+
+main pre code,
+#quarto-document-content pre code {
+  background-color: transparent;
+  padding: 0;
+  color: inherit;
+}
+
+/* ============================================
+   FOOTNOTES (Right Column)
+   ============================================ */
+
+section.footnotes {
+  margin: 0;
+  padding: 0;
+}
+
+section.footnotes h2 {
+  font-size: var(--text-h3);
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-bottom: var(--spacing-md);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+section.footnotes ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section.footnotes li {
+  margin-bottom: var(--spacing-md);
+  font-size: 0.9em;
+  color: var(--color-tertiary);
+}
+
+section.footnotes li:before {
+  content: attr(data-footnote-backref);
+  font-size: 0.8em;
+  vertical-align: super;
+  margin-right: 0.3em;
+  color: var(--color-accent);
+}
+
+section.footnotes a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+section.footnotes a:hover {
+  text-decoration: underline;
+}
+
+main a[href^="#fn"],
+#quarto-document-content a[href^="#fn"] {
+  font-size: 0.8em;
+  vertical-align: super;
+  color: var(--color-accent);
+  border: none;
+  text-decoration: none;
+}
+
+main a[href^="#fn"]:hover,
+#quarto-document-content a[href^="#fn"]:hover {
+  text-decoration: underline;
+}
+
+/* ============================================
+   WHITE ON BLACK SECTIONS
+   ============================================ */
+
+.dark-section {
+  background-color: var(--color-background-dark);
+  color: var(--color-background);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-lg) calc(-1 * var(--gutter));
+  width: calc(100% + 2 * var(--gutter));
+}
+
+.dark-section h1,
+.dark-section h2,
+.dark-section h3 {
+  color: var(--color-background);
+}
+
+.dark-section a {
+  color: var(--color-accent-light);
+  border-bottom-color: var(--color-accent-light);
+}
+
+.dark-section a:hover {
+  color: var(--color-background);
+  border-bottom-color: var(--color-background);
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+footer {
+  grid-area: footer;
+  width: 100%;
+  padding: var(--spacing-lg) var(--spacing-md);
+  border-top: 1px solid var(--color-light-grey);
+  background-color: var(--color-background);
+  text-align: center;
+}
+
+footer .content {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+footer .links {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer a {
+  color: var(--color-tertiary);
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+footer a:hover {
+  color: var(--color-accent);
+}
+
+footer .social-icons {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+footer .social-icons a {
+  font-size: 1.2em;
+}
+
+/* ============================================
+   ICONS / ARROWS
+   ============================================ */
+
+.arrow-link::after {
+  content: "";
+  display: inline-block;
+  width: 0.6em;
+  height: 0.6em;
+  border-top: 1px solid currentColor;
+  border-right: 1px solid currentColor;
+  transform: rotate(45deg);
+  margin-left: 0.3em;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+}
+
+.arrow-link:hover::after {
+  transform: rotate(45deg) translate(2px, -2px);
+}
+
+/* ============================================
+   RESPONSIVE ADJUSTMENTS
+   ============================================ */
+
+@media (max-width: 768px) {
+  :root {
+    --text-title: 40pt;
+    --text-h1: 24pt;
+    --text-h2: 18pt;
+    --text-h3: 14pt;
+    --text-body: 14pt;
+    --gutter: 1rem;
+  }
+
+  section.footnotes h2 {
+    font-size: var(--text-h3);
+  }
+}
+
+@media print {
+  body {
+    display: block;
+  }
+
+  #quarto-sidebar-toc-left,
+  #quarto-margin-sidebar {
+    display: none;
+  }
+
+  main {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+/* ============================================
+   WCAG 2.2 AAA ENHANCEMENTS
+   ============================================ */
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--color-accent);
+  color: white;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (prefers-contrast: high) {
+  :root {
+    --color-accent: #000000;
+    --color-secondary: #000000;
+    --color-tertiary: #000000;
+  }
+
+  body {
+    background-color: #ffffff;
+  }
+
+  main code,
+  main pre {
+    border: 2px solid #000000;
+  }
+}

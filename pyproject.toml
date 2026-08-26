@@ -1,7 +1,9 @@
 [project]
-name = "homepage"
+name = "balans-ca"
 version = "0.1.0"
-description = "Add your description here"
+description = "Balans website - AI/ML Engineering for Government Modernization"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.9"
+dependencies = [
+    "pillow>=11.0.0",
+]
