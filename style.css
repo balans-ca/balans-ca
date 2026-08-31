@@ -1,21 +1,26 @@
-/* ============================================
-   BASE RESET AND VARIABLES
-   ============================================ */
+/* 
+BALANS Custom CSS Version 1
+*/
+
+/*
+Rule for importing Atkinson Hyperlegible--
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+Can be followed by the following in :root {
+  --font-atkinson: "Atkinson Hyperlegible", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+*/
 
 :root {
   /* Typography */
   --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-  /* Typography Scale - Polestar inspired: 70/30/20/16pt */
+  /* Typography Scale - 70/30/20/16pt */
   --text-title: 70pt;
   --text-h1: 30pt;
   --text-h2: 20pt;
   --text-h3: 16pt;
   --text-body: 16pt;
 
-  /* Colors - WCAG 2.2 AAA Compliant
-     Turquoise accent, light grey from Polestar
-     White on black for contrast (Thinking Machines style) */
+  /* Colors - WCAG 2.2 AAA Compliant */
   --color-primary: #000000;
   --color-secondary: #333333;
   --color-tertiary: #757575;
@@ -62,6 +67,53 @@ body {
   min-height: 100vh;
 }
 
+/*
+Changes
+*/
+.wow-turquoise {
+  
+  margin-bottom: var(--spacing-sm);
+}
+
+.wow-turquoise h1 {
+  display: inline;
+  background: linear-gradient(180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 65%,
+    var(--color-accent) 65%,
+    var(--color-accent) 100%);
+  color: var(--color-accent);
+}
+
+/* Links to not inherit */
+
+main a,
+#quarto-document-content a {
+  color: var(--color-primary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-light-grey);
+  transition: all 0.2s ease;
+}
+
+/* Remove any borders from the original theme */
+main h1, main h2, main h3,
+#quarto-document-content h1,
+#quarto-document-content h2,
+#quarto-document-content h3 {
+  border: none;
+  border-bottom: none;
+  font-family: var(--font-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+main ul, main li, main ol,
+#quarto-document-content ul,
+#quarto-document-content li,
+#quarto-document-content ol {
+  line-height: inherit;
+  font-family: inherit;
+}
+
 /* ============================================
    TITLE STYLING ONLY
    Just font properties, no positioning/box model changes
@@ -85,15 +137,23 @@ body {
   margin-top: var(--spacing-sm);
 }
 
-/* ============================================
-   TABLE OF CONTENTS - Only top spacing
-   ============================================ */
-
-#quarto-sidebar-toc-left {
-  padding-top: 200px;
+main a.cta,
+#quarto-document-content a.cta {
+  display: inline-block;
+  background-color: var(--color-secondary);
+  color: var(--color-background);
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.2s ease;
 }
 
-
+main a.cta:hover,
+#quarto-document-content a.cta:hover {
+  background-color: var(--color-accent-light);
+  color: var(--color-primary);
+}
 
 /* ============================================
    HEADINGS WITH ORANGE HIGHLIGHT (Designboom-inspired)
@@ -141,64 +201,16 @@ main h3,
   margin-bottom: var(--spacing-sm);
 }
 
-/* ============================================
-   DESIGNBOOM-STYLE HIGHLIGHT CLASSES
-   
-   Based on Designboom website:
-   .wow { display: inline; background: #fff; }
-   .wow-yellow { background: linear-gradient(180deg, 
-     rgba(255,255,255,0) 0%, rgba(255,255,255,0) 65%, 
-     rgb(255,254,1) 65%, rgb(255,254,1) 100%); }
-   
-   For turquoise highlight, use .wow and .wow-orange together.
-   Apply to headings using Quarto markdown:
-   ::: {.wow .wow-orange}
-   ## Your Heading
-   :::
-   
-   OR apply directly to heading elements:
-   ## Your Heading {: .wow .wow-orange}
-   ============================================ */
-
-/* Designboom's .wow class (uppercase removed) */
-.wow {
-  display: inline;
-  background: #fff;
-}
-
-/* Designboom's .wow-yellow class (modified to turquoise) */
-.wow-orange {
-  background: linear-gradient(180deg, 
-    rgba(255, 255, 255, 0) 0%, 
-    rgba(255, 255, 255, 0) 65%, 
-    var(--color-accent) 65%, 
-    var(--color-accent) 100%);
-}
-
-/* Apply to headings - makes them inline to work with gradient */
-.wow h1, .wow h2, .wow h3 {
-  display: inline;
-  color: var(--color-accent);
-}
-
-/* For headings with wow-orange, ensure proper spacing */
-h1.wow.wow-orange,
-h2.wow.wow-orange,
-h3.wow.wow-orange {
-  display: inline;
-  color: var(--color-accent);
-  padding-bottom: 0.3em;
-}
-
 main p,
 #quarto-document-content p {
+  font-family: var(--font-serif);
   font-size: var(--text-body);
   color: var(--color-secondary);
   margin-top: 0;
   margin-bottom: var(--spacing-md);
-  line-height: 1.7;
+  line-height: 1.4;
 }
-
+/*
 main a,
 #quarto-document-content a {
   color: var(--color-accent);
@@ -206,7 +218,7 @@ main a,
   border-bottom: 1px solid var(--color-accent-light);
   transition: all 0.2s ease;
 }
-
+*/
 main a:hover,
 main a:focus,
 #quarto-document-content a:hover,
