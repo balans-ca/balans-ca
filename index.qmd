@@ -20,9 +20,9 @@ format:
 # AI Engineering for Government Modernization
 :::
 
-Balans delivers sovereign, project-based data and AI solutions for public sector institutions. We build local, in-process, on-device solutions that guarantee data privacy, control, and full compliance with WCAG 2.2 AAA and FAIR principles---without vendor lock-in or long-term contracts.
+Balans is a solo data and AI engineering practice for public-sector institutions. I build local, in-process, on-device solutions that keep your data private and under your control, designed to meet WCAG 2.2 accessibility targets and align with FAIR principles, without vendor lock-in or long-term contracts.
 
-[Partner with us](mailto:fbbgqh51@duck.com){.cta}
+[Start a conversation](mailto:adam@balans.ca){.cta}
 
 **We are the right fit when:**  
 
@@ -37,43 +37,44 @@ Balans delivers sovereign, project-based data and AI solutions for public sector
 # Why Government Modernization Needs a New Approach
 :::
 
-Traditional government IT modernization is sold as a platform, a subscription, a dashboard, a multi-year contract that outlives the mandate it was built for. Balans works differently.
+Government IT modernization is often sold as a platform, a subscription, a dashboard, a multi-year contract that outlives the mandate it was built for. I work differently.
 
-## Embedded, Scoped, Handed-over
+## Embedded, Scoped, Handed Over
 
-Our forward-deployed model puts an engineer directly on your mandate, working within your constraints until the deliverable is complete and handed over—not retained as ongoing expenditure.
+I work embedded with your team, within your constraints, until the deliverable is complete and handed over. After that, you decide whether to extend the engagement or close it.
 
-**Built for Public Sector Reality:** 
+**Built for Public Sector Reality:**
 
 ::: {.triangle-list}
-- **Local-first, sovereign by default**: Data and models run on infrastructure you control.  
-- **No vendor lock-in**: Deliverables include complete code, documentation, and training.  
-- **Project-based**: Defined scope, defined end date, fits standard contracting vehicles.  
-- **Standards-compliant from day one**: Built to WCAG 2.2 AAA and FAIR data principles.  
+- **Local-first, sovereign by default**: Data and models run on infrastructure you control.
+- **No vendor lock-in**: Deliverables include complete code, documentation, and training.
+- **Project-based**: Defined scope, defined end date, fits standard contracting vehicles.
+- **Standards-aligned from day one**: Built to WCAG 2.2 AA (AAA criteria where feasible) and aligned with FAIR data principles.
 :::
 
 ::: {.wow-turquoise}
-# What We Deliver
+# What I Deliver
 :::
 
 ::: {.quote-box}
- Fix the data, make it actionable, add on advanced capabilities--with compliance and sovereignty as underlying principles.
+Fix the data, make it actionable, add on advanced capabilities---with compliance and sovereignty as underlying principles.
 :::
 
 ## Data Engineering
-Custom pipelines, ETL, and modern analytical infrastructure that turn raw data into actionable assets, with scalability in mind. Ideal for departments consolidating legacy systems or preparing for open data initiatives.
+Custom pipelines and modern analytical infrastructure that turn raw data into actionable assets, with scalability in mind. Ideal for departments consolidating legacy systems or preparing for AI-enabled initiatives.
 
 ## Reporting & Analytical Deliverables
 Actionable insights through reports, notebooks, dashboards, and AI layers that draw on your project's data and your team's knowledge.
 
 ## AI/ML Engineering
-From proof-of-concept to production, we build solutions for real-world problems with transparency and fairness at the core, specializing in on-device inference for maximum data control.
+From proof-of-concept to working deployment, I build solutions for real-world problems with transparency and fairness at the core, specializing in on-device inference for maximum data control.
 
 ## Strategy, Governance & Compliance
-Align your data with organizational goals, regulatory requirements (ATIP, Privacy Act), and best practices (WCAG 2.2 AAA, FAIR). We help you pass departmental review the first time.
+I help align your data with organizational goals, regulatory requirements (ATIP, Privacy Act), and best practices (WCAG, FAIR), so you go into departmental review well prepared.
 
 ## Sovereign Tooling
-Local, in-process, on-device inference and tooling by default—ensuring data sovereignty, privacy, and full auditability. No third-party cloud routing unless you explicitly choose it.
+Local, in-process, on-device inference and tooling by default, supporting data sovereignty, privacy, and full auditability. No third-party cloud routing unless you explicitly choose it.
+
 
 ::: {.wow-turquoise}
 # Service Tiers
@@ -83,11 +84,11 @@ Every engagement is scoped before it's priced—the tiers below are for planning
 
 | Tier | Use Case | Typical timeline | Price range (CAD) |
 |------|-----------------------|--------------|--------------|
-| **Scope** | Forensic data audit, FAIR assessment, scoping report | 4–6 weeks | $7,500 – $9,500 |
+| **Scope** | In-depth data audit, FAIR assessment, scoping report | 4–6 weeks | $7,500 – $9,500 |
 | **Architect** | Data cleaning, vault/lake structuring, pipeline development | 8–12 weeks | $35,000 – $80,000 |
 | **Enable** | End-to-end build, SQL/reporting layer, local LLM integration, training materials | 12 weeks+ | $85,000 – $140,000 |
 
-*Final pricing depends on data volume, schema complexity, and current data quality. Scope tier required before Architect/Enable contracts.*
+*Prices exclude applicable taxes. Final pricing depends on data volume, schema complexity, and current data quality. A scoping phase is required before build work, and the scoping report is yours to use however you choose.*
 
 ::: {.wow-turquoise}
 # Get Started
@@ -95,14 +96,14 @@ Every engagement is scoped before it's priced—the tiers below are for planning
 
 Have a project in mind, or want to discuss your options? A first conversation costs nothing and commits you to nothing.
 
-[Email Adam, Principal](mailto:fbbgqh51@duck.com){.cta}
+[Email me](mailto:adam@balans.ca){.cta}
 
 ::: {.quote-box}
-Balans is a disability-owned business with federal government data science and research data management expertise. Working with us helps you meet supplier diversity targets.
+Balans is a disability-owned business with data science and research data management expertise gained in the federal government. Working with Balans may count toward supplier diversity objectives.
 :::
 
 ## About the name
 
-Several cultures share the idea of something being “just right” (not too much, not too little). Like the Earth’s axial tilt, a small but well-placed adjustment can be what makes everything feel optimized, well-balanced. That’s the standard we hold ourselves to.
+Several cultures share the idea of something being “just right” (not too much, not too little). Like the Earth’s axial tilt, a small but well-placed adjustment can be what makes everything feel optimized, well-balanced. That’s the standard I hold myself to.
 
-<small>&copy; 2026</small>
+<small>&copy; 2026 Adam M. Słociński, operating as *Balans*</small>
