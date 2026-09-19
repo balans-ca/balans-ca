@@ -2,7 +2,6 @@
 .DS_Store
 
 # Quarto files
-index.qmd
 
 # Docs folder
 docs/
