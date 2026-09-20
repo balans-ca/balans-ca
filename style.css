@@ -6,12 +6,12 @@ BALANS Custom CSS Version 1
   /* Typography */
   --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-  /* Typography Scale - 70/30/20/16pt */
-  --text-title: 70pt;
-  --text-h1: 30pt;
-  --text-h2: 20pt;
-  --text-h3: 16pt;
-  --text-body: 16pt;
+  /* Typography Scale - 70/30/20/16 in rem (≈93/40/27/21px) */
+  --text-title: 5.83rem;
+  --text-h1: 2.5rem;
+  --text-h2: 1.67rem;
+  --text-h3: 1.33rem;
+  --text-body: 1.33rem;
 
   /* Colors - WCAG 2.2 AAA Compliant */
   --color-primary: #000000;
@@ -397,11 +397,11 @@ footer .social-icons a {
 
 @media (max-width: 768px) {
   :root {
-    --text-title: 40pt;
-    --text-h1: 24pt;
-    --text-h2: 18pt;
-    --text-h3: 14pt;
-    --text-body: 14pt;
+    --text-title: 3.33rem;
+    --text-h1: 2rem;
+    --text-h2: 1.5rem;
+    --text-h3: 1.17rem;
+    --text-body: 1.17rem;
     --gutter: 1rem;
   }
 
