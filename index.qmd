@@ -112,7 +112,7 @@ Have a project in mind, or want to discuss your options? A first conversation co
 [Email Adam](mailto:adam@balans.ca){.cta}
 
 ::: {.quote-box}
-Balans is a disability-owned business with data science and research data management expertise gained in the federal government. Collaborating with me may count toward supplier diversity objectives.
+Balans is a disability-owned business with data science and research data management expertise. Collaborating with me may count toward supplier diversity objectives.
 :::
 
 ## About the name
