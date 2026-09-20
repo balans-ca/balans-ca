@@ -21,7 +21,7 @@ format:
 # AI Engineering for Government Modernization
 :::
 
-Balans is a solo data and AI engineering practice for public-sector institutions. I build local, in-process, on-device solutions that keep your data private and under your control, designed to meet WCAG 2.2 accessibility targets and align with FAIR principles, without vendor lock-in or long-term contracts.
+Balans is an independent data and AI engineering practice for public-sector institutions. I build local, in-process, on-device solutions that keep your data private and under your control, designed to meet WCAG 2.2 accessibility targets and align with FAIR principles, without vendor lock-in or long-term contracts.
 
 [Start a conversation](mailto:adam@balans.ca){.cta}
 
