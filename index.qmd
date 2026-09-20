@@ -83,11 +83,25 @@ Local, in-process, on-device inference and tooling by default, supporting data s
 
 Every engagement is scoped before it's priced—the tiers below are for planning purposes, not a binding quote.
 
-| Tier | Use Case | Typical timeline | Price range (CAD) |
-|------|-----------------------|--------------|--------------|
-| **Scope** | In-depth data audit, FAIR assessment, scoping report | 4–6 weeks | $7,500 – $9,500 |
-| **Architect** | Data cleaning, vault/lake structuring, pipeline development | 8–12 weeks | $35,000 – $80,000 |
-| **Enable** | End-to-end build, SQL/reporting layer, local LLM integration, training materials | 12 weeks+ | $85,000 – $140,000 |
+::: {.pricing-cards}
+### Scope
+In-depth data audit, FAIR assessment, scoping report.  
+
+**Timeline:** 4–6 weeks  
+**Price:** $7,500 – $9,500  
+
+### Architect
+Data cleaning, vault/lake structuring, pipeline development.  
+
+**Timeline:** 8–12 weeks  
+**Price:** $35,000 – $80,000  
+
+### Enable
+End-to-end build, SQL/reporting layer, local LLM integration, training materials.  
+
+**Timeline:** 12 weeks+  
+**Price:** $85,000 – $140,000  
+:::
 
 *Prices exclude applicable taxes. Final pricing depends on data volume, schema complexity, and current data quality. A scoping phase is required before build work, and the scoping report is yours to use however you choose.*
 
