@@ -25,9 +25,8 @@ Balans is a solo data and AI engineering practice for public-sector institutions
 
 [Start a conversation](mailto:adam@balans.ca){.cta}
 
-**Collaborate with me when:**  
-
-::: {.triangle-list}
+::: {.pitch-card}
+### Collaborate with me when:  
 - You need a **completed project**, not another platform subscription.   
 - Your mandate has a **hard deadline**.   
 - Your **budget** rules out multi-year vendor relationships.   
@@ -44,9 +43,8 @@ Government IT modernization is often sold as a platform, a subscription, a dashb
 
 I work embedded with your team, within your constraints, until the deliverable is complete and handed over. After that, you decide whether to extend the engagement or close it.
 
-**Built for Public Sector Reality:**
-
-::: {.triangle-list}
+::: {.pitch-card}
+### Built for Public Sector Reality: 
 - **Local-first, sovereign by default**: Data and models run on infrastructure you control.
 - **No vendor lock-in**: Deliverables include complete code, documentation, and training.
 - **Project-based**: Defined scope, defined end date, fits standard contracting vehicles.
@@ -103,7 +101,7 @@ End-to-end build, SQL/reporting layer, local LLM integration, training materials
 **Price:** $85,000 – $140,000  
 :::
 
-*Prices exclude applicable taxes. Final pricing depends on data volume, schema complexity, and current data quality. A scoping phase is required before build work, and the scoping report is yours to use however you choose.*
+<small>*Prices exclude applicable taxes. Final pricing depends on data volume, schema complexity, and current data quality. A scoping phase is required before build work, and the scoping report is yours to use however you choose.*</small>
 
 ::: {.wow-turquoise}
 # Get Started

@@ -2438,6 +2438,40 @@ outline: 2px solid var(--color-accent);
 outline-offset: 2px;
 }
 
+main .pitch-card,
+#quarto-document-content .pitch-card {
+border: 1px solid var(--color-light-grey);
+padding: var(--spacing-md);
+border-radius: 4px;
+background-color: var(--color-background);
+width: 100%;
+margin-bottom: var(--spacing-lg);
+}
+main .pitch-card h3,
+#quarto-document-content .pitch-card h3 {
+margin-top: 0;
+margin-bottom: var(--spacing-sm);
+color: var(--color-primary);
+font-size: var(--text-h2);
+}
+main .pitch-card p,
+#quarto-document-content .pitch-card p {
+margin-top: 0;
+margin-bottom: var(--spacing-xs);
+color: var(--color-secondary);
+font-size: var(--text-body);
+}
+main .pitch-card strong,
+#quarto-document-content .pitch-card strong {
+color: var(--color-primary);
+}
+
+main .pitch-card:focus-within,
+#quarto-document-content .pitch-card:focus-within {
+outline: 2px solid var(--color-accent);
+outline-offset: 2px;
+}
+
 section.footnotes {
 margin: 0;
 padding: 0;
@@ -2626,8 +2660,8 @@ border: 2px solid #000000;
 </section>
 <p>Balans is a solo data and AI engineering practice for public-sector institutions. I build local, in-process, on-device solutions that keep your data private and under your control, designed to meet WCAG 2.2 accessibility targets and align with FAIR principles, without vendor lock-in or long-term contracts.</p>
 <p><a href="mailto:adam@balans.ca" class="cta">Start a conversation</a></p>
-<p><strong>Collaborate with me when:</strong></p>
-<div class="triangle-list">
+<section id="collaborate-with-me-when" class="level3 pitch-card">
+<h3 data-anchor-id="collaborate-with-me-when">Collaborate with me when:</h3>
 <ul>
 <li>You need a <strong>completed project</strong>, not another platform subscription.<br>
 </li>
@@ -2638,7 +2672,7 @@ border: 2px solid #000000;
 <li>Your data assets must be processed on infrastructure you <strong>can control and audit</strong>.<br>
 </li>
 </ul>
-</div>
+</section>
 <section id="why-government-modernization-needs-a-new-approach" class="level1 wow-turquoise">
 <h1>Why Government Modernization Needs a New Approach</h1>
 </section>
@@ -2646,15 +2680,15 @@ border: 2px solid #000000;
 <section id="embedded-scoped-handed-over" class="level2">
 <h2 data-anchor-id="embedded-scoped-handed-over">Embedded, Scoped, Handed Over</h2>
 <p>I work embedded with your team, within your constraints, until the deliverable is complete and handed over. After that, you decide whether to extend the engagement or close it.</p>
-<p><strong>Built for Public Sector Reality:</strong></p>
-<div class="triangle-list">
+<section id="built-for-public-sector-reality" class="level3 pitch-card">
+<h3 data-anchor-id="built-for-public-sector-reality">Built for Public Sector Reality:</h3>
 <ul>
 <li><strong>Local-first, sovereign by default</strong>: Data and models run on infrastructure you control.</li>
 <li><strong>No vendor lock-in</strong>: Deliverables include complete code, documentation, and training.</li>
 <li><strong>Project-based</strong>: Defined scope, defined end date, fits standard contracting vehicles.</li>
 <li><strong>Standards-aligned from day one</strong>: Built to WCAG 2.2 AA (AAA criteria where feasible) and aligned with FAIR data principles.</li>
 </ul>
-</div>
+</section>
 </section>
 <section id="what-i-deliver" class="level1 wow-turquoise">
 <h1>What I Deliver</h1>
@@ -2706,7 +2740,7 @@ border: 2px solid #000000;
 <strong>Price:</strong> $85,000 – $140,000</p>
 </section>
 </div>
-<p><em>Prices exclude applicable taxes. Final pricing depends on data volume, schema complexity, and current data quality. A scoping phase is required before build work, and the scoping report is yours to use however you choose.</em></p>
+<p><small><em>Prices exclude applicable taxes. Final pricing depends on data volume, schema complexity, and current data quality. A scoping phase is required before build work, and the scoping report is yours to use however you choose.</em></small></p>
 <section id="get-started" class="level1 wow-turquoise">
 <h1>Get Started</h1>
 </section>
