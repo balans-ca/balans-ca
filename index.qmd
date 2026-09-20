@@ -14,6 +14,7 @@ format:
         #    output: document
         #    standard: wcag22aaa
         #    best-practice: true
+
 ---
 
 ::: {.wow-turquoise}
@@ -96,10 +97,10 @@ Every engagement is scoped before it's priced—the tiers below are for planning
 
 Have a project in mind, or want to discuss your options? A first conversation costs nothing and commits you to nothing.
 
-[Email me](mailto:adam@balans.ca){.cta}
+[Email Adam](mailto:adam@balans.ca){.cta}
 
 ::: {.quote-box}
-Balans is a disability-owned business with data science and research data management expertise gained in the federal government. Working with Balans may count toward supplier diversity objectives.
+Balans is a disability-owned business with data science and research data management expertise gained in the federal government. Collaborating with me may count toward supplier diversity objectives.
 :::
 
 ## About the name
