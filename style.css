@@ -243,23 +243,10 @@ main .triangle-list ul,
 
 main .triangle-list li,
 #quarto-document-content .triangle-list li {
-  position: relative;
-  padding-left: 40px;
+  border-left: 3px solid var(--color-light-grey);
+  border-right: 3px solid var(--color-light-grey);
+  padding: var(--spacing-sm);
   margin-bottom: var(--spacing-sm);
-}
-
-main .triangle-list li::before,
-#quarto-document-content .triangle-list li::before {
-  content: "";
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 0;
-  height: 0;
-  border-top: 11px solid transparent;
-  border-bottom: 11px solid transparent;
-  border-left: 18px solid var(--color-accent);
 }
 
 main .triangle-list li:nth-child(odd),
