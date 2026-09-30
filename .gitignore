@@ -35,3 +35,7 @@ pyproject.toml
 
 /.quarto/
 **/*.quarto_ipynb
+
+# Site sources (kept local, not published)
+*.qmd
+eu/balans-eu.md
