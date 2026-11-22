@@ -11,8 +11,8 @@ website:
   navbar:
     search: false
     left:
-      - text: EU
-        href: eu/index.qmd
+      - text: CV
+        href: /files/adam-slocinski-cv.pdf
       - text: Writing
         href: writing/index.qmd
       - text: Contact
@@ -28,6 +28,12 @@ website:
 format:
   html:
     css: style.css
+    page-layout: full
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px
+      gutter-width: 1.5rem
     toc: true
     toc-location: right
     anchor-sections: false
