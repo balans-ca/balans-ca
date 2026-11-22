@@ -10,6 +10,11 @@ Balans is an independent data and AI engineering practice for public-sector inst
 
 [Start a conversation](mailto:adam@balans.ca){.cta}
 
+- [CV (PDF)](/files/adam-slocinski-cv.pdf)
+- [Writing](writing/index.qmd)
+- [Contact](contact/index.qmd)
+- [EU site](eu/index.qmd)
+
 ::: {.pitch-card}
 ## Collaborate with me when:  
 - You need a **completed project**, not another platform subscription.   
