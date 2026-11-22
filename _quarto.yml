@@ -8,25 +8,17 @@ website:
   title: "Balans"
   comments: false
   search: false
-  sidebar:
-    contents:
-      - text: Home
-        href: index.qmd
-      - eu/index.qmd
-      - writing/index.qmd
-      - contact/index.qmd
-  page-footer:
-    left: "© 2026 Adam M. Słociński, operating as Balans"
+  page-footer: |
+    <small>Balans is a disability-owned business with data science and research data management expertise. Collaborating with me may count toward supplier diversity objectives.</small>
+
+    <small>&copy; 2026 [Adam M. Słociński](mailto:adam@balans.ca), operating as *Balans*</small>
 
 format:
   html:
     css: style.css
     page-layout: full
     grid:
-      sidebar-width: 300px
       body-width: 900px
-      margin-width: 300px
       gutter-width: 1.5rem
-    toc: true
-    toc-location: right
+    toc: false
     anchor-sections: false
