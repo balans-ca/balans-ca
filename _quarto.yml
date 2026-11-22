@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Balans"
+  comments: false
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: EU
+        href: eu/index.qmd
+      - text: Writing
+        href: writing/index.qmd
+      - text: Contact
+        href: contact/index.qmd
+
+format:
+  html:
+    css: style.css
+    toc: false
+    anchor-sections: false
+    embed-resources: true
