@@ -1,0 +1,14 @@
+---
+title: "Writing"
+description: "Articles and notes by Adam Słociński on AI governance, applied AI, and public-sector data work."
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+---
+
+Articles and notes on AI governance, applied AI, and public-sector technology. Coming
+soon.
+
+<!-- New article: add writing/posts/<slug>.qmd with front matter (title, description,
+     date). Articles are listed here automatically, newest first. -->
