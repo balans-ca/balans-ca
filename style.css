@@ -7,12 +7,12 @@ BALANS Custom CSS Version 1
   --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-serif: "Iowan Old Style", Georgia, "Times New Roman", Times, serif;
 
-  /* Typography Scale - 70/30/20/16 in rem (≈93/40/27/21px) */
+  /* Typography Scale - 70/30/20/18 in rem (≈93/40/27/18px) */
   --text-title: 5.83rem;
   --text-h1: 2.5rem;
   --text-h2: 1.67rem;
   --text-h3: 1.33rem;
-  --text-body: 1.33rem;
+  --text-body: 1.125rem;
 
   /* Colors - WCAG 2.2 AAA Compliant */
   --color-primary: #000000;
@@ -137,12 +137,12 @@ main a.cta,
 #quarto-document-content a.cta {
   display: inline-block;
   font-family: var(--font-primary);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1rem;
-  background-color: var(--color-secondary);
-  color: var(--color-background);
+  background-color: var(--color-light-grey);
+  color: var(--color-primary);
   padding: 0.75rem 1.75rem;
-  border: 1px solid var(--color-secondary);
+  border: 1px solid var(--color-light-grey);
   border-radius: 999px;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -455,7 +455,8 @@ footer {
   padding: var(--spacing-lg) var(--spacing-md);
   border-top: 1px solid var(--color-light-grey);
   background-color: var(--color-background);
-  text-align: center;
+  text-align: left;
+  line-height: 1.6;
 }
 
 footer .content {
@@ -503,7 +504,7 @@ footer .social-icons a {
     --text-h1: 2rem;
     --text-h2: 1.5rem;
     --text-h3: 1.17rem;
-    --text-body: 1.17rem;
+    --text-body: 1.0625rem;
     --gutter: 1rem;
   }
 
@@ -591,4 +592,19 @@ footer.footer .nav-footer {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Footer note spans the body column, left-justified */
+footer.footer .nav-footer {
+  display: block;
+  text-align: left;
+}
+
+footer.footer .nav-footer-left,
+footer.footer .nav-footer-right {
+  display: none;
+}
+
+footer.footer .nav-footer-center {
+  text-align: left;
 }

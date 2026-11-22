@@ -10,7 +10,7 @@ I'm Adam M. Słociński, principal of Balans, an independent data and AI enginee
 
 I like libraries, cheering for the underdogs, and computers that work in airplane mode.
 
-[Check what I have been up to, including my curriculum vitæ](/files/adam-slocinski-cv.pdf){.cta}
+[Check what I have been up to, including my curriculum vitæ](about/index.qmd){.cta}
 
 [Read up on some of the things I have been thinking about](writing/index.qmd){.cta}
 

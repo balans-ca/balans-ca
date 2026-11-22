@@ -41,3 +41,4 @@ pyproject.toml
 
 # Local backups
 *.bak
+_axe-checks/
