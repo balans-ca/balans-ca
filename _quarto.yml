@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - files/
 
 website:
   title: "Balans"
@@ -21,4 +23,3 @@ format:
     css: style.css
     toc: false
     anchor-sections: false
-    embed-resources: true
