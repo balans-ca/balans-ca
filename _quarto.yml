@@ -7,19 +7,27 @@ project:
 website:
   title: "Balans"
   comments: false
+  search: false
   navbar:
+    search: false
     left:
-      - text: Home
-        href: index.qmd
       - text: EU
         href: eu/index.qmd
       - text: Writing
         href: writing/index.qmd
       - text: Contact
         href: contact/index.qmd
+  sidebar:
+    contents:
+      - eu/index.qmd
+      - writing/index.qmd
+      - contact/index.qmd
+  page-footer:
+    left: "© 2026 Adam M. Słociński, operating as Balans"
 
 format:
   html:
     css: style.css
-    toc: false
+    toc: true
+    toc-location: right
     anchor-sections: false
