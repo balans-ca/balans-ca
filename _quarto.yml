@@ -8,17 +8,10 @@ website:
   title: "Balans"
   comments: false
   search: false
-  navbar:
-    search: false
-    left:
-      - text: CV
-        href: /files/adam-slocinski-cv.pdf
-      - text: Writing
-        href: writing/index.qmd
-      - text: Contact
-        href: contact/index.qmd
   sidebar:
     contents:
+      - text: Home
+        href: index.qmd
       - eu/index.qmd
       - writing/index.qmd
       - contact/index.qmd
