@@ -2,6 +2,7 @@
 title: "About"
 ---
 
+::: {.center-page}
 *Coming soon*
 
 
@@ -12,3 +13,4 @@ Seeking, *proposal coming soon*.
 
 [Curriculum vitæ](/files/adam-slocinski-cv.pdf)
 -->
+:::

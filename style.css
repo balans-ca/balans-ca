@@ -588,15 +588,21 @@ footer .social-icons a {
    (grid body-width: 900px), so cap the navbar
    and footer containers at the same width.
    ============================================ */
-#quarto-header .navbar-container,
-footer.footer .nav-footer {
+#quarto-header .navbar-container {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Footer note spans the body column, left-justified */
+/* Footer note spans the body column, left-justified.
+   Match the body grid track (900px - 3rem) plus main's 2rem
+   horizontal padding so footer text aligns with body text. */
 footer.footer .nav-footer {
+  max-width: calc(900px - 3rem);
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  margin-left: auto;
+  margin-right: auto;
   display: block;
   text-align: left;
 }
@@ -615,4 +621,13 @@ footer.footer .nav-footer-center {
 #quarto-content.page-columns main.content.column-page,
 #quarto-content.page-columns .quarto-title-meta.column-page {
   grid-column: body-content-start / body-content-end;
+}
+
+/* Section pages (about/contact/writing): center content in the viewport */
+main.content .center-page {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
