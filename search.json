@@ -7,6 +7,20 @@
     "text": "Coming soon\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About",
+    "section": "",
+    "text": "Coming soon"
+  },
+  {
+    "objectID": "contact/index.html",
+    "href": "contact/index.html",
+    "title": "Contact",
+    "section": "",
+    "text": "A first conversation costs nothing and commits you to nothing. Tell me what you build or what you hold, and I will say honestly whether I am the right desk for it.\nEmail: adam@balans.ca\nGitHub: github.com/asloci"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Balans",
@@ -47,19 +61,5 @@
     "title": "Balans",
     "section": "About the name",
     "text": "About the name\nSeveral cultures share the idea of something being “just right” (not too much, not too little). Like the Earth’s axial tilt, a small but well-placed adjustment can be what makes everything feel optimized and well-balanced.\nThat’s the standard I hold myself to."
-  },
-  {
-    "objectID": "contact/index.html",
-    "href": "contact/index.html",
-    "title": "Contact",
-    "section": "",
-    "text": "A first conversation costs nothing and commits you to nothing. Tell me what you build or what you hold, and I will say honestly whether I am the right desk for it.\nEmail: adam@balans.ca\nGitHub: github.com/asloci"
-  },
-  {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "About",
-    "section": "",
-    "text": "Coming soon"
   }
 ]
