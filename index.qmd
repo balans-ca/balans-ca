@@ -6,53 +6,40 @@ title: "Balans"
 # Responsible AI, applied. 
 :::
 
-I'm Adam M. Słociński, principal of Balans, an independent data and AI engineering practice. I help organizations use AI on the data they already have, and help fill out the required paperwork too.  
+I'm Adam M. Słociński, operating as *Balans*, an independent, responsible, applied AI engineering practice. I help organizations use AI on the data they already have, and help them fill out the regulatory paperwork too.  
 
-I like libraries, cheering for the underdogs, and computers that work in airplane mode.
+I like libraries, cheering for the underdog, and computers that work in airplane mode.
 
-[Check what I have been up to, including my curriculum vitæ](about/index.qmd){.cta}
-
-[Read up on some of the things I have been thinking about](writing/index.qmd){.cta}
-
-[Start a conversation with me](contact/index.qmd){.cta}
+[Check what I have been up to, including my curriculum vitæ](about/index.qmd){.cta}  
+[Read up on some of the things I have been thinking about](writing/index.qmd){.cta}  
+[Start a conversation with me](contact/index.qmd){.cta}  
 
 ## Who this is for
 
-I build local, in-process, on-device solutions that keep your data private and under your control, designed to meet regulatory compliance. Think WCAG 2.2 accessibility targets; alignment with FAIR principles; submitting an algorithmic assessment impact; or one-pager on your exposure to the EU AI Act; all the while without vendor lock-in or long-term contracts. 
-
-If you sell or deploy AI into the EU, and the AI Act's high-risk rules apply to you, or you manage a public or cultural institution, and want to learn how AI can make your archives and records digital and queryable, contact me.
+We will work well together if you sell or deploy AI into the EU, and the AI Act's high-risk rules apply to you. Or if you manage a public or cultural institution and want to learn how AI can make your archives digital.
 
 ## What I can deliver
 
-### EU AI Act readiness
-The Exposure Inventory lists every AI system you deploy or sell into the EU and what the Act requires of each:
-your exposure on one page. The Classification Memo takes a given system and states, with reasoning,
-whether it is high-risk and what that sets off; it is written to hand to counsel. The AI Literacy Program (Article
-4) trains your staff on your own systems, not on generic slides. Where the Act calls for a Fundamental Rights
-Impact Assessment, I draft the working file behind it.
+I build local, in-process, on-device solutions that keep your data private and under your control, designed to meet regulatory compliance. Think WCAG 2.2 accessibility targets; alignment with FAIR principles; submitting an algorithmic assessment impact; or one-pager on your exposure to the EU AI Act; you keep the code, the training, and the documentation.
 
-### Records and documents-AI pilots and more
+I also do readiness support, classification, assessment support, and documentation, without the build. For example, where the EU AI Act calls for a Fundamental Rights Impact Assessment, I draft the working file behind it. Where the AI Literacy Program (Article 4) has to be addressed, I train your staff on your own systems, not slides.
 
-A small working system built over documents you already hold (case files, catalogues, reports,
-correspondence), answering the questions you choose. You keep the code, the documentation, and the
-training. The pilot produces its own paper trail, inventory and classification and documentation, which is why
-the governance advice and the build can come from the same desk
+This is why the governance advice and the build can come from the same desk.
 
 ## How I work
 
-Embedded, scoped, handed over. I work embedded with your team, within your constraints, until the
-deliverable is complete and handed over. After that, you decide whether to extend the engagement or close it.
-Local-first is what makes the advice practical: what I recommend are systems I have built, private and
-auditable, on infrastructure you control, with no third-party cloud routing unless you choose it. Standards are a
-standing habit, not an add-on. WCAG 2.2 AA (AAA criteria where feasible) and FAIR data principles, in every
-deliverable. Every engagement is project-based, with a defined scope and a defined end date, and code,
-documentation, and training included. Prices are quoted per project after scoping, and the scoping report is
-yours to use however you choose.
+I believe we have enough compute on our desks and in our pockets to handle most of our data and AI needs. I recommend private and auditable solutions, on infrastructure you control, with no third-party cloud routing unless you choose it.
+
+Every engagement is project-based. Prices are quoted per project after scoping, and the scoping report is yours to use however you choose. I work with your team, within your constraints, until the deliverable is complete and handed over. After that, you decide whether to extend the engagement or close it.
 
 ## What I am not
 
+For legal advice, and for the declaration of conformity, you work with counsel. My job is to make sure the file behind it exists.
 
+For multi-year vendor lock-in or proprietary system upgrades, you work with your IT department. I do not sell software or platform subscriptions.
 
 ## About the name
 
-Several cultures share the idea of something being “just right” (not too much, not too little). Like the Earth’s axial tilt, a small but well-placed adjustment can be what makes everything feel optimized and well-balanced. That’s the standard I hold myself to.
+Several cultures share the idea of something being “just right” (not too much, not too little). Like the Earth’s axial tilt, a small but well-placed adjustment can be what makes everything feel optimized and well-balanced.
+
+That’s the standard I hold myself to.

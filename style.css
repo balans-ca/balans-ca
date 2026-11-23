@@ -142,6 +142,7 @@ main a.cta,
   background-color: var(--color-light-grey);
   color: var(--color-primary);
   padding: 0.75rem 1.75rem;
+  margin: 0.35rem 0;
   border: 1px solid var(--color-light-grey);
   border-radius: 999px;
   text-decoration: none;
@@ -607,4 +608,11 @@ footer.footer .nav-footer-right {
 
 footer.footer .nav-footer-center {
   text-align: left;
+}
+
+/* Body column matches the footer width (900px) on every page,
+   instead of spanning the full page grid area */
+#quarto-content.page-columns main.content.column-page,
+#quarto-content.page-columns .quarto-title-meta.column-page {
+  grid-column: body-content-start / body-content-end;
 }
