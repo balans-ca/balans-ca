@@ -42,3 +42,9 @@ pyproject.toml
 # Local backups
 *.bak
 _axe-checks/
+
+# Local handoff notes (never committed)
+handoffs/
+
+# Node (Eleventy leftovers)
+node_modules/
