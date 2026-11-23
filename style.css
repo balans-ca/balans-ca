@@ -5,13 +5,14 @@ BALANS Custom CSS Version 1
 :root {
   /* Typography */
   --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-serif: "Iowan Old Style", Georgia, "Times New Roman", Times, serif;
 
-  /* Typography Scale - 70/30/20/16 in rem (≈93/40/27/21px) */
+  /* Typography Scale - 70/30/20/18 in rem (≈93/40/27/18px) */
   --text-title: 5.83rem;
   --text-h1: 2.5rem;
   --text-h2: 1.67rem;
   --text-h3: 1.33rem;
-  --text-body: 1.33rem;
+  --text-body: 1.125rem;
 
   /* Colors - WCAG 2.2 AAA Compliant */
   --color-primary: #000000;
@@ -52,7 +53,7 @@ html {
 }
 
 body {
-  font-family: var(--font-primary);
+  font-family: var(--font-serif);
   font-size: var(--text-body);
   line-height: 1.6;
   color: var(--color-secondary);
@@ -114,6 +115,7 @@ main ul, main li, main ol,
    ============================================ */
 
 #title-block-header .title {
+  font-family: var(--font-primary);
   font-size: var(--text-title);
   font-weight: 700;
   font-style: italic;
@@ -134,11 +136,15 @@ main ul, main li, main ol,
 main a.cta,
 #quarto-document-content a.cta {
   display: inline-block;
-  background-color: var(--color-secondary);
-  color: var(--color-background);
-  padding: 1rem 2rem;
-  border-radius: 6px;
-  font-weight: bold;
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: var(--color-light-grey);
+  color: var(--color-primary);
+  padding: 0.75rem 1.75rem;
+  margin: 0.35rem 0;
+  border: 1px solid var(--color-light-grey);
+  border-radius: 999px;
   text-decoration: none;
   transition: all 0.2s ease;
 }
@@ -146,6 +152,7 @@ main a.cta,
 main a.cta:hover,
 #quarto-document-content a.cta:hover {
   background-color: var(--color-accent);
+  border-color: var(--color-accent);
   color: var(--color-primary);
 }
 
@@ -444,11 +451,13 @@ main a[href^="#fn"]:hover,
 
 footer {
   grid-area: footer;
+  font-family: var(--font-primary);
   width: 100%;
   padding: var(--spacing-lg) var(--spacing-md);
   border-top: 1px solid var(--color-light-grey);
   background-color: var(--color-background);
-  text-align: center;
+  text-align: left;
+  line-height: 1.6;
 }
 
 footer .content {
@@ -496,7 +505,7 @@ footer .social-icons a {
     --text-h1: 2rem;
     --text-h2: 1.5rem;
     --text-h3: 1.17rem;
-    --text-body: 1.17rem;
+    --text-body: 1.0625rem;
     --gutter: 1rem;
   }
 
@@ -572,3 +581,39 @@ footer .social-icons a {
     border: 2px solid #000000;
   }
 }
+
+/* ============================================
+   NAVBAR / FOOTER ALIGNED WITH BODY COLUMN
+   page-layout: full centers the body column
+   (grid body-width: 900px), so cap the navbar
+   and footer containers at the same width.
+   ============================================ */
+#quarto-header .navbar-container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer note spans the body column, left-justified.
+   Match the body grid track (900px - 3rem) plus main's 2rem
+   horizontal padding so footer text aligns with body text. */
+footer.footer .nav-footer {
+  max-width: calc(900px - 3rem);
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: left;
+}
+
+footer.footer .nav-footer-left,
+footer.footer .nav-footer-right {
+  display: none;
+}
+
+footer.footer .nav-footer-center {
+  text-align: left;
+}
+
+

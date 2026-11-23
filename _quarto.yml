@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - files/
+
+website:
+  title: "Balans"
+  comments: false
+  search: false
+  page-footer: |
+    <small>Balans is a disability-owned business with data science and research data management expertise. Collaborating with me may count toward supplier diversity objectives.</small>
+
+    <small>&copy; 2026 Adam M. Słociński, operating as *Balans*</small>
+
+format:
+  html:
+    css: style.css
+    grid:
+      body-width: 900px
+      gutter-width: 1.5rem
+    toc: false
+    anchor-sections: false
