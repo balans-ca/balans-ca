@@ -7,9 +7,7 @@ listing:
   type: default
 ---
 
-::: {.center-page}
 *Coming soon*
 
 <!-- New article: add writing/posts/<slug>.qmd with front matter (title, description,
      date). Articles are listed here automatically, newest first. -->
-:::

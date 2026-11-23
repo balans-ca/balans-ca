@@ -16,7 +16,6 @@ website:
 format:
   html:
     css: style.css
-    page-layout: full
     grid:
       body-width: 900px
       gutter-width: 1.5rem

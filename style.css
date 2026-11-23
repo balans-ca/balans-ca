@@ -616,18 +616,4 @@ footer.footer .nav-footer-center {
   text-align: left;
 }
 
-/* Body column matches the footer width (900px) on every page,
-   instead of spanning the full page grid area */
-#quarto-content.page-columns main.content.column-page,
-#quarto-content.page-columns .quarto-title-meta.column-page {
-  grid-column: body-content-start / body-content-end;
-}
 
-/* Section pages (about/contact/writing): center content in the viewport */
-main.content .center-page {
-  min-height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
