@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "writing/index.html",
+    "href": "writing/index.html",
+    "title": "Writing",
+    "section": "",
+    "text": "Coming soon\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About",
+    "section": "",
+    "text": "Coming soon"
+  },
+  {
+    "objectID": "contact/index.html",
+    "href": "contact/index.html",
+    "title": "Contact",
+    "section": "",
+    "text": "A first conversation costs nothing and commits you to nothing. Tell me what you build or what you hold, and I will say honestly whether I am the right desk for it.\nEmail: adam@balans.ca\nGitHub: github.com/asloci"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Balans",
+    "section": "",
+    "text": "I’m Adam M. Słociński, operating as Balans, an independent, responsible, applied AI engineering practice. I help organizations use AI on the data they already have, and help them fill out the regulatory paperwork too.\nI like libraries, cheering for the underdog, and computers that work in airplane mode.\nCheck what I have been up to, including my curriculum vitæ\nRead up on some of the things I have been thinking about\nStart a conversation with me"
+  },
+  {
+    "objectID": "index.html#who-this-is-for",
+    "href": "index.html#who-this-is-for",
+    "title": "Balans",
+    "section": "Who this is for",
+    "text": "Who this is for\nWe will work well together if you sell or deploy AI into the EU, and the AI Act’s high-risk rules apply to you. Or if you manage a public or cultural institution and want to learn how AI can make your archives digital."
+  },
+  {
+    "objectID": "index.html#what-i-can-deliver",
+    "href": "index.html#what-i-can-deliver",
+    "title": "Balans",
+    "section": "What I can deliver",
+    "text": "What I can deliver\nI build local, in-process, on-device solutions that keep your data private and under your control, designed to meet regulatory compliance. Think WCAG 2.2 accessibility targets; alignment with FAIR principles; submitting an algorithmic assessment impact; or one-pager on your exposure to the EU AI Act; you keep the code, the training, and the documentation.\nI also do readiness support, classification, assessment support, and documentation, without the build. For example, where the EU AI Act calls for a Fundamental Rights Impact Assessment, I draft the working file behind it. Where the AI Literacy Program (Article 4) has to be addressed, I train your staff on your own systems, not slides.\nThis is why the governance advice and the build can come from the same desk."
+  },
+  {
+    "objectID": "index.html#how-i-work",
+    "href": "index.html#how-i-work",
+    "title": "Balans",
+    "section": "How I work",
+    "text": "How I work\nI believe we have enough compute on our desks and in our pockets to handle most of our data and AI needs. I recommend private and auditable solutions, on infrastructure you control, with no third-party cloud routing unless you choose it.\nEvery engagement is project-based. Prices are quoted per project after scoping, and the scoping report is yours to use however you choose. I work with your team, within your constraints, until the deliverable is complete and handed over. After that, you decide whether to extend the engagement or close it."
+  },
+  {
+    "objectID": "index.html#what-i-am-not",
+    "href": "index.html#what-i-am-not",
+    "title": "Balans",
+    "section": "What I am not",
+    "text": "What I am not\nFor legal advice, and for the declaration of conformity, you work with counsel. My job is to make sure the file behind it exists.\nFor multi-year vendor lock-in or proprietary system upgrades, you work with your IT department. I do not sell software or platform subscriptions."
+  },
+  {
+    "objectID": "index.html#about-the-name",
+    "href": "index.html#about-the-name",
+    "title": "Balans",
+    "section": "About the name",
+    "text": "About the name\nSeveral cultures share the idea of something being “just right” (not too much, not too little). Like the Earth’s axial tilt, a small but well-placed adjustment can be what makes everything feel optimized and well-balanced.\nThat’s the standard I hold myself to."
+  }
+]
